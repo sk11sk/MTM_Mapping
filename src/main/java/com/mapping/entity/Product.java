@@ -15,7 +15,7 @@ import java.util.Set;
 @AllArgsConstructor
 @Entity
 @Table(name = "jpa_product")
-public class Product { // parent entity just for understanding purpose
+public class Product { // parent entity just for understanding purpose ( where mappedBy = "   ") is written
 
     @Id
 //    @GeneratedValue(strategy = GenerationType.IDENTITY)
