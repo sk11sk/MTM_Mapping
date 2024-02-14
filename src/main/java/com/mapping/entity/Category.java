@@ -35,4 +35,15 @@ public class Category {  // child entity just for understanding purpose
 }
 
 
+// its upto you whom to make child whom to make parent
+
+//@JoinTable(name = "category_product",
+//           joinColumns = @JoinColumn(name = "category_id"),inverseJoinColumns = @JoinColumn(name = "product_id"))
+//
+
+////@JoinTable(name = "category_product" : name of the third table  that  shows the relation between  parent and child entity
+// @JoinTable : child entity  which does not has (mapped by=  " ")
+// joinColumns  =  joins columns of parent and child entity
+// @JoinColumn : child entity  primary id
+// inverseJoinColumns : parent  entity  primary id
 
