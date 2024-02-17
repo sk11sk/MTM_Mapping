@@ -201,13 +201,13 @@ public class Test implements CommandLineRunner {
         category3.setCid("cid3");
         category3.setTitle("portable  item");
 
+// cascade  = cascade = CascadeType.ALL// no need to save  parent object.set(child object )
 
-
-        List<Category>  c  = Arrays.asList(category1,category2,category3);  ////// parent object.set(child object )
-        product1.setCategories(c);
-        product2.setCategories(c);
-        product3.setCategories(c);
-        product4.setCategories(c);
+//        List<Category>  c  = Arrays.asList(category1,category2,category3);  ////// parent object.set(child object )
+//        product1.setCategories(c);
+//        product2.setCategories(c);
+//        product3.setCategories(c);
+//        product4.setCategories(c);
 
 
         List<Product>  p  = Arrays.asList(product1,product2,product3,product4);

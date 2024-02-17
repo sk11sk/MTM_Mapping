@@ -24,7 +24,7 @@ public class Product { // parent entity just for understanding purpose ( where m
     private String productName;
 
 
-    @ManyToMany(mappedBy = "products" )
+    @ManyToMany(mappedBy = "products" ,cascade = CascadeType.ALL )
     private List<Category> categories = new ArrayList<>();
 
 //    @ManyToMany
