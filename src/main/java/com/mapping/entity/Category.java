@@ -24,7 +24,7 @@ public class Category {  // child entity just for understanding purpose
 
     private String title;
 
-    @ManyToMany
+    @ManyToMany // you can add  @jointable() here 
     private List<Product> products = new ArrayList<>();
 
     // Constructors, getters, and setters
